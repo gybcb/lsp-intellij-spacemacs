@@ -14,7 +14,7 @@
 (defconst lsp-intellij-packages
   '(company
     flycheck
-    (lsp-intellij :location (recipe :fetcher github :repo "Ruin0x11/lsp-intellij"))))
+    (lsp-intellij :location (recipe :fetcher github :repo "gybcb/lsp-intellij"))))
 
 (defun lsp-intellij/post-init-company ()
   (add-hook 'java-mode-local-vars-hook #'spacemacs//lsp-intellij-setup-company))

@@ -19,7 +19,7 @@
     (lsp-ui :toggle (configuration-layer/package-usedp 'flycheck))
     company
     (company-lsp :toggle (configuration-layer/package-usedp 'company))
-    (lsp-intellij :location (recipe :fetcher github :repo "Ruin0x11/lsp-intellij"))
+    (lsp-intellij :location (recipe :fetcher github :repo "gybcb/lsp-intellij"))
     ))
 
 (defun lsp-intellij/init-lsp-mode ()
